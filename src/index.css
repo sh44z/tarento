@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+li:hover::before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: #a5f3fc;
+    right: 0;
+    color: #a5f3fc;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.card {
+    background: black;
+}
