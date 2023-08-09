@@ -1,8 +1,9 @@
 {
+  "homepage": "https://sh44z.github.io/tarento",
   "name": "tarento",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sh44z.github.io/tarento",
+  
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
