@@ -3,6 +3,7 @@ import React from 'react';
 import JobCard from './JobCard';
 import { useState } from 'react';
 import SearchDiv from '../SearchDiv/SearchDiv';
+import NavBar from '../NavBar/NavBar';
 
 
 
@@ -70,6 +71,7 @@ const JobBoard = () => {
 
   return (
     <div>
+      <NavBar />
     <SearchDiv handleSearch={handleSearch}  />
     <div  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
     
